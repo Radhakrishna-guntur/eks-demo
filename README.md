@@ -1,13 +1,15 @@
-# eks-demo
-Demo on Elastic Kubernetes Services(EKS) and related topics.
+# EKS - Create Cluster
 
-AWS EKS Storage.
+## List of Topics 
+- Install CLIs
+  - AWS CLI
+  - kubectl
+  - eksctl
+- Create EKS Cluster
+- Create EKS Node Groups
+- Understand EKS Cluster Pricing
+  - EKS Control Plane
+  - EKS Worker Nodes
+  - EKS Fargate Profile
+- Delete EKS Clusters 
 
-
-Topics:
-
-1. Install EBS CSI Driver
-
-2. Create MySQL Database Deployment & ClusterIP Service
-
-3. Create User Management Microservice Deployment & NodePort Service
