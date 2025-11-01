@@ -29,4 +29,7 @@ Choose between standard EKS or fully automated EKS Auto Mode
 Amazon Elastic Kubernetes Service (Amazon EKS) is the premiere platform for running Kubernetes clusters, both in the Amazon Web Services (AWS) cloud and in your own data centers (EKS Anywhere and Amazon EKS Hybrid Nodes).
 Amazon EKS simplifies building, securing, and maintaining Kubernetes clusters. It can be more cost effective at providing enough resources to meet peak demand than maintaining your own data centers. 
 
+Reference Link:
+
+https://docs.aws.amazon.com/eks/latest/userguide/what-is-eks.html
 
