@@ -13,3 +13,20 @@
   - EKS Fargate Profile
 - Delete EKS Clusters 
 
+Amazon EKS: Simplified Kubernetes Management
+
+
+Amazon Elastic Kubernetes Service (EKS) provides a fully managed Kubernetes service that eliminates the complexity of operating Kubernetes clusters. With EKS, you can:
+
+Deploy applications faster with less operational overhead
+
+Scale seamlessly to meet changing workload demands
+
+Improve security through AWS integration and automated updates
+
+Choose between standard EKS or fully automated EKS Auto Mode
+
+Amazon Elastic Kubernetes Service (Amazon EKS) is the premiere platform for running Kubernetes clusters, both in the Amazon Web Services (AWS) cloud and in your own data centers (EKS Anywhere and Amazon EKS Hybrid Nodes).
+Amazon EKS simplifies building, securing, and maintaining Kubernetes clusters. It can be more cost effective at providing enough resources to meet peak demand than maintaining your own data centers. 
+
+
