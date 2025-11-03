@@ -2,6 +2,8 @@ What is EKS
 
 Amazon Elastic Kubernetes Service (EKS) is AWS’s managed Kubernetes offering. By handling the control plane—API servers, etcd, schedulers, controllers—EKS lets you focus on deploying and operating your containerized workloads. Unlike a self-managed Kubernetes cluster, Amazon EKS splits responsibilities: AWS manages the control plane, while you maintain the data plane in your own AWS account.
 
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/305874e3-81d6-401e-9dbe-89005b96ccb1" />
+
 
 # EKS - Create Cluster
 
