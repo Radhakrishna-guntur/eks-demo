@@ -1,21 +1,22 @@
-What is EKS
+# What is EKS
 
 Amazon Elastic Kubernetes Service (EKS) is AWS’s managed Kubernetes offering. By handling the control plane—API servers, etcd, schedulers, controllers—EKS lets you focus on deploying and operating your containerized workloads. Unlike a self-managed Kubernetes cluster, Amazon EKS splits responsibilities: AWS manages the control plane, while you maintain the data plane in your own AWS account.
 
-A standard Kubernetes cluster consists of two main layers:
+**A standard Kubernetes cluster consists of two main layers:**
 
-Control Plane:     etcd (the key/value store),      API Server ,     Scheduler,       Controller Manager.
+## **Control Plane:  **   etcd (the key/value store),      API Server ,     Scheduler,       Controller Manager.
 
-Data Plane:    Worker nodes (EC2 instances or AWS Fargate) ,       Pods and containers
+## **Data Plane: **   Worker nodes (EC2 instances or AWS Fargate) ,       Pods and containers
 
 
 <img width="1320" height="695" alt="Screenshot 2025-11-03 at 2 47 05 PM" src="https://github.com/user-attachments/assets/e8b01859-04a7-4cf8-9a5d-b9f17bde4e6d" />
 
 
 EKS Shared Responsibility Model "
+
 With Amazon EKS, AWS takes care of the highly available, secure control plane, while you manage your worker nodes and application workloads.
 
-AWS Manages (Control Plane) :
+# AWS Manages (Control Plane) :
 
 etcd, API Server, Scheduler	 
 
@@ -25,7 +26,7 @@ Control Plane VPC networking & HA
 
 Automatic backups, updates & scaling	                             
 
-You Manage (Data Plane):
+# You Manage (Data Plane):
 
 Worker Nodes (EC2 instances or Fargate)
 
