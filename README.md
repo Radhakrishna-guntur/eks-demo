@@ -77,7 +77,44 @@ In the cloud, Amazon EKS automatically manages the availability and scalability 
 
 With Amazon EKS, you can take advantage of all the performance, scale, reliability, and availability of AWS infrastructure, as well as integrations with AWS networking and security services. On-premises, EKS provides a consistent, fully supported Kubernetes solution with integrated tooling and simple deployment to AWS Outposts, virtual machines, or bare metal servers.
 
-Reference Link:
+# Services to use with Amazon EKS
+
+You can use other AWS services with the clusters that you deploy using Amazon EKS:
+
+## Amazon EC2:
+
+Obtain on-demand, scalable compute capacity with Amazon EC2.
+
+## Amazon EBS:
+
+Attach scalable, high-performance block storage resources with Amazon EBS.
+
+## Amazon ECR:
+
+Store container images securely with Amazon ECR.
+
+## Amazon CloudWatch:
+
+Monitor AWS resources and applications in real time with Amazon CloudWatch.
+
+## Amazon Prometheus:
+
+Track metrics for containerized applications with Amazon Managed Service for Prometheus.
+
+## Elastic Load Balancing:
+
+Distribute incoming traffic across multiple targets with Elastic Load Balancing.
+
+## Amazon GuardDuty:
+
+Detect threats to EKS clusters with Amazon GuardDuty.
+
+## AWS Resilience Hub:
+
+Assess EKS cluster resiliency with AWS Resilience Hub.
+
+
+## Reference Link:
 
 https://docs.aws.amazon.com/eks/latest/userguide/what-is-eks.html
 
