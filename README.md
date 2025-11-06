@@ -36,6 +36,31 @@ Kubernetes workloads, Namespaces, RBAC, CRDs
 
 Pod configuration, Security Groups, IAM roles
 
+# Features of Amazon EKS
+
+Amazon EKS provides the following high-level features:
+
+**Management interfaces**
+EKS offers multiple interfaces to provision, manage, and maintain clusters, including AWS Management Console, Amazon EKS API/SDKs, CDK, AWS CLI, eksctl CLI, AWS CloudFormation, and Terraform. For more information, see Get started with Amazon EKS and Amazon EKS cluster lifecycle and configuration.
+
+**Access control tools**
+EKS relies on both Kubernetes and AWS Identity and Access Management (AWS IAM) features to manage access from users and workloads. For more information, see Grant IAM users and roles access to Kubernetes APIs and Grant Kubernetes workloads access to AWS using Kubernetes Service Accounts.
+
+**Compute resources**
+For compute resources, EKS allows the full range of Amazon EC2 instance types and AWS innovations such as Nitro and Graviton with Amazon EKS for you to optimize the compute for your workloads. For more information, see Manage compute resources by using nodes.
+
+**Storage**
+EKS Auto Mode automatically creates storage classes using EBS volumes. Using Container Storage Interface (CSI) drivers, you can also use Amazon S3, Amazon EFS, Amazon FSX, and Amazon File Cache for your application storage needs. For more information, see Use application data storage for your cluster.
+
+**Security**
+The shared responsibility model is employed as it relates to Security in Amazon EKS. For more information, see Security best practices, Infrastructure security, and Kubernetes security.
+
+**Monitoring tools**
+Use the observability dashboard to monitor Amazon EKS clusters. Monitoring tools include Prometheus, CloudWatch, Cloudtrail, and ADOT Operator. For more information on dashboards, metrics servers, and other tools, see EKS cluster costs and Kubernetes Metrics Server.
+
+**Kubernetes compatibility and support**
+Amazon EKS is certified Kubernetes-conformant, so you can deploy Kubernetes-compatible applications without refactoring and use Kubernetes community tooling and plugins. EKS offers both standard support and extended support for Kubernetes. For more information, see Understand the Kubernetes version lifecycle on EKS.
+
 
 # EKS - Create Cluster
 
