@@ -14,6 +14,7 @@ Amazon Elastic Kubernetes Service (EKS) is AWS’s managed Kubernetes offering. 
 
 EKS Shared Responsibility Model "
 
+
 With Amazon EKS, AWS takes care of the highly available, secure control plane, while you manage your worker nodes and application workloads.
 
 # AWS Manages (Control Plane) :
